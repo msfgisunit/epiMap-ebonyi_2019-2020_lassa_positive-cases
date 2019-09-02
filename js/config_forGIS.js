@@ -37,7 +37,7 @@
 	                    dimTime : "Weeks",
 	                    // temportal boundaries (timeMin, timeMax, defaultTime : INTERGER [defined] / STRING [default]) - Bound the temporal dimension : set a number for defined value, write a string for automatic value.
 	                    timeMin : 1,
-	                    timeMax : 31,
+	                    timeMax : 35,
 	                    defaultTime : "",
 	                    // dimGeo (STRING) - Geographical dimension, usually 'p' codes. Joins to geometry.
 	                    dimGeo : "PCODE",
@@ -280,16 +280,16 @@
 	                tooltip : "Weekly incidence rate"                
 	            },
 	            combined : {
-	                title   : "Cases",
+	                title   : "Positive Cases",
 	                bars : {
-	                    legend  : "Bars : New weekly cases",
+	                    legend  : "Bars : New weekly positive cases",
 	                    axis    : "New weekly cases",
-	                    tooltip : "new cases"                    
+	                    tooltip : "New positive cases"                    
 	                },
 	                line : {
-	                    legend  : "Line : Cumulated cases",
+	                    legend  : "Line : Cumulated positive cases",
 	                    axis    : "Cumulated cases",
-	                    tooltip : "cumulated cases"                    
+	                    tooltip : "Cumulated positive cases"                    
 	                }                
 	            }
 	        },
